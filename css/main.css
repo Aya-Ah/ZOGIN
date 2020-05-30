@@ -1,3 +1,134 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.3%;
+}
+
+header li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.joinus-btn , .discover-btn {
+    font-size: 14px;
+    padding: 16px 36px 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: #ffffff;
+    background: #5768AD;
+}
+
+.img-container {
+    width: 100%;
+    height: 873px;
+    background-position:top center;
+    margin-top: 1.3%;
+    padding-top: 1.3%;
+}
+
+.nav-header a {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 0;
+    display: block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-header {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content  {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    left: 0;
+    top: 50px;
+    width: 180px;
+    transition: all, 0.3s;
+    padding: 5px 0;
+}
+
+.dropdown-content a {
+    padding: 6px 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #222222;
+}
+
+.dropdown:hover .dropdown-content  {
+  display: block;
+}
+
+.socialm-header a {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 25px;
+ 
+}
+.socialm-header {
+    flex: 1;
+    text-align: right;
+}
+
+
+.header-text h4 {
+    font-size: 16px;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.header-text h2 {
+    font-size: 70px;
+    color: white;
+    line-height: 80px;
+    margin: 0px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+
+
+.header-text   {
+    text-align: left;
+    margin-top: 180px;
+    width: 60%;
+    
+}
+
