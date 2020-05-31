@@ -187,7 +187,7 @@ header li {
 }
 
 .services {
-    padding: 100px 0px 0px;
+    padding: 80px 0px 70px;
 }
 
 .services-title {
@@ -230,7 +230,64 @@ header li {
     margin-bottom: 0px;
 }
 
+.why-choose-us {
+    background: #f5f6fa;
+    padding: 100px 0px 20px;
+}
 
+.why-choose-us .container {
+    display: flex;
+}
+
+.choose-us-header {
+    margin-bottom: 60px;
+}
+.choose-us-header h2 {
+    font-size: 44px;
+    color: #263246;
+    margin-bottom: 6px;
+}
+
+.choose-us-header p {
+    font-size: 16px;
+    color: #6E7580;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-us-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.choose-item {
+    display: flex;
+    width: 50%;
+}
+
+.choose-item-ico {
+    margin: 0px 25px 80px 0px ;
+}
+
+.choose-item-text h2 {
+    font-size: 48px;
+    color: #263246;
+    line-height: 45px;
+    margin-bottom: 2.5px;
+    margin-top: -4px;
+}
+
+.choose-item-text p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #9B9EA3;
+}
+
+.choose-us-img img {
+    padding: 0px 15px;
+}
 @media only screen and (max-width: 1251px) {
     .container {
         width: 95%;
@@ -242,5 +299,9 @@ header li {
 
     .services__item {
         width: 30%;
+    }
+
+    .choose-us-img img {
+        width: 450px;
     }
 }
