@@ -4,6 +4,9 @@
 
 body {
     font-family: "DM Sans", sans-serif;
+    color: #212529;
+    text-align: left;
+    font-weight: 400px;
 }
 
 body a {
@@ -11,7 +14,7 @@ body a {
 }
 
 .container {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -28,7 +31,7 @@ header li {
     font-size: 12px;
 }
 
-.joinus-btn , .discover-btn {
+.joinus-btn , .discover-btn , .about-us-btn {
     font-size: 14px;
     padding: 16px 36px 14px;
     text-align: center;
@@ -120,15 +123,70 @@ header li {
     color: white;
     line-height: 80px;
     margin: 0px;
-    font-weight: 400px;
     margin-bottom: 50px;
 }
 
 
 .header-text   {
-    text-align: left;
     margin-top: 180px;
     width: 60%;
-    
 }
 
+.home-about {
+    padding: 100px 0px 0px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    color: #404D80;
+}
+
+ .home-about-imgs {
+    display: flex;
+}
+
+.home-about-imgs  .first-img {
+    margin-right: 16px;
+}
+.home-about-imgs .last-img {
+    margin-top: 16px;
+}
+
+.home-about-imgs img {
+    min-width:43%;
+}
+
+.home-about-text img {
+    margin-top: 40px ;
+}
+    
+.home-about-text h2 {
+    font-size: 44px;
+    margin: 34px 0px 30px;
+    color: #263246;
+}
+
+.home-about-text span {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.home-about-text p {
+    font-size: 16px;
+    color: #6E7580;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+
+.home-about-text .para-2 {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1251px) {
+    .container {
+        width: 95%;
+    }
+
+    .home-about-imgs img {
+        width: 90%;
+    }
+}
