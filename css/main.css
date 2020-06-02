@@ -425,6 +425,131 @@ header li {
     color: #9B9EA3;
 }
 
+.appointment {
+    background: #5768AD;
+    padding: 60px 100px;
+    margin-bottom: 70px;
+}
+
+.appointment-header {
+    text-align: center;
+}
+
+.appointment-header img {
+    margin: 0px auto;
+}
+
+.appointment-header h2 {
+    color: white;
+    font-size: 44px;
+    margin: 34px 0 50px;
+}
+
+.appointment-form input  ,.appointment-form input:focus {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 28px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none; 
+}
+
+.appointment-form input::placeholder {
+    color: white;
+}
+
+.appointment-form   {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 27px;
+}
+
+.appointment-form-msg {
+    grid-column: span 2;
+}
+.appointment-form-msg input , .appointment-form-msg input:focus {  
+    height: 100px;
+}
+
+.appointment-form button ,.appointment-form button:checked {
+    font-size: 14px;
+    color: #5768AD;
+    display: inline-block;
+    background: #ffffff;
+    padding: 14px 35px 12px;
+    border-radius: 2px;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 13px auto 0px;
+    grid-column: span 2;
+    outline: none;
+}
+
+/*custom select boxes  */
+.custom-select {
+    position: relative;
+  }
+  
+  .custom-select select {
+    display: none; 
+  }
+  
+  .select-selected {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 28px;
+    border-radius: 2px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none; 
+
+  }
+  
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 16px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  .select-items {
+    position: absolute;
+    color: #ffffff;
+    background:#263246;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+
+
 @media only screen and (max-width: 1251px) {
     .container {
         width: 95%;
